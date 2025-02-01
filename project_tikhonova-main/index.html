@@ -8,12 +8,16 @@
 </head>
 <body>
     <header class="header">
+        <section>
+            <h1>Музей истории и археологии Республики Марий Эл</h1>
+            
+        </section>
        
-        <a><img src="images/building.jpg" alt="Здание" width="1400" height="700"></a>
+        <a><img class="header__image" src="images/building.jpg" alt="Здание" width="1569" height="700"></a>
         
-        <nav class="header_menu">
+        <nav class="header__menu">
             <ul class="menu">
-            <li class="menu_item menu_item- -active">
+            <li class="menu_item menu_item--active">
                 <a class="menu_link" href="index.html">Главная</a></li>
             <li class="menu_item">
                 <a class="menu_link" href="index.html">О музее</a></li>
@@ -30,16 +34,11 @@
         </nav>
         <button type="button">Купить билет</button>
     </header>
-    <main>
+    <main class="main">
         
-        <section>
-            <h1>Музей истории и археологии Республики Марий Эл</h1>
-            
-        </section>
-        <section>
-            <h2 class="">
-                О нас
-            </h2>
+        
+        <section class="about">
+            <h2 class="about__title"> О нас </h2>
             <p><b>Музей истории и археологии</b> - краеведческий музей, 
                 распологающийся в городе Йошкар-Ола. 
                 Является структурным подразделением Национального 
@@ -48,31 +47,31 @@
             интерьеры жилищ различных исторических периодов, уникальные предметы быта. Фотовыставка "Визит в Марий Эл" приглашает посетить природные 
             и исторические достопримечательности республики.</p>
         </section>
-        <section>
-            <h2 class="">Выставки</h2>
-            <div class="exhibitions">
-                <img src="images/exposition.jpg" alt="экспозиция" width="500" height="300">
+        <section class="exhibitions">
+            <h2 class="exhibitions__title">Выставки</h2>
+            <div class="exhibitions__link">
+                <img class="exhibitions__link exhibitions__image" src="images/exposition.jpg" alt="экспозиция" width="500" height="300">
                 <p>2024 год</p>
-                <h3 class="">Марийский край. Вехи истории</h3>
+                <h3 class="exhibitions__link exhibitions__title">Марийский край. Вехи истории</h3>
                 <p>Экспозиция представляет подлинные вещественные и фотодокументальные 
                     <p>материалы по важнейшим периодам истории Марийского края.</p>
                 <a href>подробнее</a>
             </div>
-            <div class="exhibitions">
-                <img src="images/costumes.png" alt="костюмы" width="500" height="300">
+            <div class="exhibitions__link">
+                <img class="exhibitions__link exhibitions__image" src="images/costumes.png" alt="костюмы" width="500" height="300">
                 <p>2024 год</p>
-                <h3 class="">Археология Марийского Поволжья: культура, народ, государство</h3>
+                <h3 class="exhibitions__link exhibitions__title">Археология Марийского Поволжья: культура, народ, государство</h3>
                 <p>Экспозиция отражает древнейшее эпохи освоения территории между 
                     <p>Ветлужско-Вятском междуречье и прилегающего участка побережья </p>
                     <p>Волги с эпохи камня до периода вхождения в состав Русского государства.</p>
                 <a href>подробнее</a>
             </div>
-            <div class="exhibitions">
-                <img src="images/visitors.jpg" alt="посетители" width="500" height="300">
+            <div class="exhibitions__link">
+                <img class="exhibitions__link exhibitions__image" src="images/visitors.jpg" alt="посетители" width="500" height="300">
                 <p>11 июня - 31 декабря 2024 года</p>
-                <h3 class="">Этноархеология: от Imniscaris до Мари.</h3>
+                <h3 class="exhibitions__link exhibitions__title">Этноархеология: от Imniscaris до Мари.</h3>
                 <p>Экспозиция посвещена истории народа, в разное время известного как <em>имнискарис,</em>
-                <p><em>черемиса</em> и только в начале XX века обретшего собственное название <em>мари.</em></p>
+                <p><em>черемисы</em> и только в начале XX века обретшего собственное название <em>мари.</em></p>
                 <a href>подробнее</a>
             </div>
             <a class="link link--more" href="" onclick>Все выставки</a>
