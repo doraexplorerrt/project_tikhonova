@@ -10,142 +10,131 @@
     <header class="header">
         <section>
             <h1>Музей истории и археологии Республики Марий Эл</h1>
-            
         </section>
-        <a><img class="header__image" src="images/building.jpg" alt="Здание" width="1569" height="700"></a>
+        <a href="#">
+            <img class="header__image" src="images/building.jpg" alt="Здание музея" width="1569" height="700">
+        </a>
         
         <nav class="header__menu">
             <ul class="menu">
-            <li class="menu_item menu_item--active">
-                <a class="menu_link" href="index.html">Главная</a></li>
-            <li class="menu_item">
-                <a class="menu_link" href="about_museum.html">О музее</a></li>
-            <li class="menu_item">
-                <a class="menu_link" href="for_visitors.html">Посетителям</a></li>
-            <li class="menu_item">
-                <a class="menu_link" href="event_poster.html">Афиша</a></li>
-            <li class="menu_item">
-                <a class="menu_link" href="other_museums.html">Другие музейные площадки</a></li>
-            <li class="menu_item">
-                <a class="menu_link" href="contacts.html">Контакты</a></li>
-            
+                <li class="menu_item menu_item--active">
+                    <a class="menu_link" href="index.html">Главная</a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu_link" href="about_museum.html">О музее</a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu_link" href="for_visitors.html">Посетителям</a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu_link" href="event_poster.html">Афиша</a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu_link" href="other_museums.html">Другие музейные площадки</a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu_link" href="contacts.html">Контакты</a>
+                </li>
             </ul>
         </nav>
         <button popovertarget="pay">Купить билет</button>
         <div id="pay" popover>
-        <div class="close"><button popovertarget="pay" popovertargetaction="hide"   
-            title="Закрыть">x</button></div>
+            <div class="close">
+                <button popovertarget="pay" popovertargetaction="hide" title="Закрыть">x</button>
+            </div>
+        </div>
     </header>
+
     <main class="main">
-        
-        
         <section class="about">
-            <h2 class="about__title"> О нас </h2>
-            <p><b>Музей истории и археологии</b> - краеведческий музей, 
-                распологающийся в городе Йошкар-Ола. 
-                Является структурным подразделением Национального 
-                музей Республики Марий Эл имени Тимофея Евсеева.  4 ноября 2018 года Музей истории и археологии начал свою работу с экспозиции "Археология Марийского Поволжья: культура, народ, государство" и "Марийский край. Вехи истории".
-            <p>В 2021 году в музее была открыта экспозиция "Этноархеология: от Imniscaris до Мари". Гостей музея непременно удивят необычные инсталяции, 
-            интерьеры жилищ различных исторических периодов, уникальные предметы быта. Фотовыставка "Визит в Марий Эл" приглашает посетить природные 
-            и исторические достопримечательности республики.</p>
+            <h2 class="about__title">О нас</h2>
+            <p><b>Музей истории и археологии</b> - краеведческий музей, расположенный в городе Йошкар-Ола. Является структурным подразделением Национального музея Республики Марий Эл имени Тимофея Евсеева. 4 ноября 2018 года Музей истории и археологии начал свою работу с экспозиции "Археология Марийского Поволжья: культура, народ, государство" и "Марийский край. Вехи истории".</p>
+            <p>В 2021 году в музее была открыта экспозиция "Этноархеология: от Imniscaris до Мари". Гостей музея непременно удивят необычные инсталляции, интерьеры жилищ различных исторических периодов, уникальные предметы быта. Фотовыставка "Визит в Марий Эл" приглашает посетить природные и исторические достопримечательности республики.</p>
         </section>
+
         <section class="exhibitions">
             <h2 class="exhibitions__title">Выставки музея</h2>
             <a href="event_poster.html" target="_blank">Все выставки</a>
-            <div class="exhibitions__link">
+            <div class="exhibitions__list">
                 <ul>
                     <li>
-                        <img class="exhibitions__link exhibitions__image" src="images/exposition.jpg" alt="экспозиция" width="500" height="300">
+                        <img class="exhibitions__image" src="images/exposition.jpg" alt="Экспозиция" width="500" height="300">
                         <p>2024 год</p>
-                        <h3 class="exhibitions__link exhibitions__title">Марийский край. Вехи истории</h3>
-                        <p>Экспозиция представляет подлинные вещественные и фотодокументальные 
-                            <p>материалы по важнейшим периодам истории Марийского края.</p>
-                        <a href="event_poster.html">подробнее</a>
+                        <h3 class="exhibitions__title">Марийский край. Вехи истории</h3>
+                        <p>Экспозиция представляет подлинные вещественные и фотодокументальные материалы по важнейшим периодам истории Марийского края.</p>
+                        <a href="event_poster.html">Подробнее</a>
                     </li>
                     <li>
-                        <img class="exhibitions__link exhibitions__image" src="images/costumes.png" alt="костюмы" width="500" height="300">
+                        <img class="exhibitions__image" src="images/costumes.png" alt="Костюмы" width="500" height="300">
                         <p>2024 год</p>
-                        <h3 class="exhibitions__link exhibitions__title">Археология Марийского Поволжья: культура, народ, государство</h3>
-                        <p>Экспозиция отражает древнейшее эпохи освоения территории между 
-                            <p>Ветлужско-Вятском междуречье и прилегающего участка побережья </p>
-                            <p>Волги с эпохи камня до периода вхождения в состав Русского государства.</p>
-                        <a href="event_poster.html">подробнее</a>
+                        <h3 class="exhibitions__title">Археология Марийского Поволжья: культура, народ, государство</h3>
+                        <p>Экспозиция отражает древнейшие эпохи освоения территории между Ветлужско-Вятским междуречьем и прилегающего участка побережья Волги с эпохи камня до периода вхождения в состав Русского государства.</p>
+                        <a href="event_poster.html">Подробнее</a>
                     </li>
                     <li>
-                        <img class="exhibitions__link exhibitions__image" src="images/visitors.jpg" alt="посетители" width="500" height="300">
+                        <img class="exhibitions__image" src="images/visitors.jpg" alt="Посетители" width="500" height="300">
                         <p>11 июня - 31 декабря 2024 года</p>
-                        <h3 class="exhibitions__link exhibitions__title">Этноархеология: от Imniscaris до Мари.</h3>
-                        <p>Экспозиция посвещена истории народа, в разное время известного как <em>имнискарис,</em>
-                        <p><em>черемисы</em> и только в начале XX века обретшего собственное название <em>мари.</em></p>
-                        <a href="event_poster.html">подробнее</a>
+                        <h3 class="exhibitions__title">Этноархеология: от Imniscaris до Мари</h3>
+                        <p>Экспозиция посвящена истории народа, в разное время известного как <em>имнискарис</em>, <em>черемисы</em> и только в начале XX века обретшего собственное название <em>мари</em>.</p>
+                        <a href="event_poster.html">Подробнее</a>
                     </li>
                 </ul>
-                
             </div>
-            
         </section>
-        <section>
-            <h2 class="">События</h2>
+
+        <section class="events">
+            <h2 class="events__title">События</h2>
             <a href="events.html" target="_blank">Все события</a>
-            <div class="events">
+            <div class="events__list">
                 <ul>
                     <li>
                         <img src="images/events1.jpg" alt="Изменение графика работы" width="300" height="300">
-                        <h3 class="">Изменение графика работы Музея истории и археологии</h3>
-                        <p><img src="images/alarm.jpg" alt="Часы 1" width="15" height="15"> 02 декабря Пн - 29 декабря Вс</p>
-                        <p>Уважаемые посетители, со 2 по 29 декабря 2024 года в Музее истории и археологии будет действовать 
-                            <p>следующий режим работы площадки для посетителей: Рабочие дни: среда-воскресенье с 10:00 до…</p>
-                        <a href>подробнее</a>
-                        <p><img src="images/map-pin-2-line.jpg" alt="События" width="15" height="15"> Музей истории и археологии</p>
+                        <h3 class="events__item-title">Изменение графика работы Музея истории и археологии</h3>
+                        <p><img src="images/alarm.jpg" alt="Часы" width="15" height="15"> 02 декабря Пн - 29 декабря Вс</p>
+                        <p>Уважаемые посетители, со 2 по 29 декабря 2024 года в Музее истории и археологии будет действовать следующий режим работы площадки для посетителей: Рабочие дни: среда-воскресенье с 10:00 до…</p>
+                        <a href="events.html">Подробнее</a>
+                        <p><img src="images/map-pin-2-line.jpg" alt="Место" width="15" height="15"> Музей истории и археологии</p>
                     </li>
                     <li>
                         <img src="images/events2.jpg" alt="Новогодняя ярмарка" width="350" height="300">
-                        <h3 class="">Приглашаем вас на предновогоднюю благотворительную ярмарку</h3>
-                        <p><img src="images/alarm.jpg" alt="Часы 2" width="15" height="15"> 12 ноября Вт - 15 декабря Вс</p>
-                        <p>Фонд «Инициатива Про» проведёт предновогоднюю благотворительную ярмарку. 
-                            <p>Все вырученные средства будут переданы фонду им. Ани Чижовой в Республике Марий Эл, который помогает неизлечимо…</p>
-                        <a href>подробнее</a>
-                        <p><img src="images/map-pin-2-line.jpg" alt="События" width="15" height="15"> Музей истории и археологии </p>
+                        <h3 class="events__item-title">Приглашаем вас на предновогоднюю благотворительную ярмарку</h3>
+                        <p><img src="images/alarm.jpg" alt="Часы" width="15" height="15"> 12 ноября Вт - 15 декабря Вс</p>
+                        <p>Фонд «Инициатива Про» проведёт предновогоднюю благотворительную ярмарку. Все вырученные средства будут переданы фонду им. Ани Чижовой в Республике Марий Эл, который помогает неизлечимо…</p>
+                        <a href="events.html">Подробнее</a>
+                        <p><img src="images/map-pin-2-line.jpg" alt="Место" width="15" height="15"> Музей истории и археологии</p>
                     </li>
                     <li>
                         <img src="images/events3.jpg" alt="Голосование" width="300" height="300">
-                        <h3 class="">Поддержите музей в голосовании!</h3>
-                        <p><img src="images/alarm.jpg" alt="Часы 3" width="15" height="15"> 15 ноября Пт - 30 декабря Пн</p>
-                        <p>В рамках Всероссийского конкурса «Премия Первых» 15 ноября стартовало народное онлайн-голосование. 
-                            <p>Оно продлится до 30 декабря включительно. Национальный музей Марий Эл им. Т.…</p>
-                        <a href>подробнее</a>
+                        <h3 class="events__item-title">Поддержите музей в голосовании!</h3>
+                        <p><img src="images/alarm.jpg" alt="Часы" width="15" height="15"> 15 ноября Пт - 30 декабря Пн</p>
+                        <p>В рамках Всероссийского конкурса «Премия Первых» 15 ноября стартовало народное онлайн-голосование. Оно продлится до 30 декабря включительно. Национальный музей Марий Эл им. Т.…</p>
+                        <a href="events.html">Подробнее</a>
                         <p><img src="images/map-pin-2-line.jpg" alt="Место" width="15" height="15"></p>
                     </li>
                 </ul>
-                
             </div>
         </section>
     </main>
 
     <footer>
-        <p>Сайт создан Тихоновой Дарьей, Шамаковой Алёной, корниловой Елизаветой, Гребенщиковой Маргаритой группа МЗ-21</p>
+        <p>Сайт создан Тихоновой Дарьей, Шамаковой Алёной, Корниловой Елизаветой, Гребенщиковой Маргаритой, группа МЗ-21</p>
         <div class="subscription">
             <h2 class="subscription__title">Подписаться на новости</h2>
             <form class="form form--subscription">
-              <input type="email" placeholder="Ваш e-mail" name="email" value="" inputmode="email" required="">
-              <button type="submit">
-                <span class="visually-hidden">Подписаться</span>
-                <img src="images/arrow.jpg" alt="стрелка" width="20px" height="20px" fill="none">
-                <use class="icon__symbol" xlink:href="#icon-arrow-up-right"></use>
-              </button>
+                <input type="email" placeholder="Ваш e-mail" name="email" inputmode="email" required>
+                <button type="submit">
+                    <span class="visually-hidden">Подписаться</span>
+                    <img src="images/arrow.jpg" alt="Стрелка" width="20" height="20">
+                </button>
             </form>
-          </div>
-          <div class="social">
+        </div>
+        <div class="social">
             <h2 class="social__title">Давайте дружить</h2>
-                <a class="social__item-link" href="https://vk.com/arxays12" target="_blank" rel="noopener noreferrer nofollow">
-        
-                    <img src="images/vk.jpg" alt="иконка вк" width="20px" height="20px" fill="none">
-                    <use class="icon__symbol" xlink:href="images/vk.jpg"></use>
-                
-                  <span class="visually-hidden">Вконтакте</span>
-                </a>
-      
-          </div>
+            <a class="social__item-link" href="https://vk.com/arxays12" target="_blank" rel="noopener noreferrer nofollow">
+                <img src="images/vk.jpg" alt="Иконка ВКонтакте" width="20" height="20">
+                <span class="visually-hidden">ВКонтакте</span>
+            </a>
+        </div>
     </footer>
 </body>
 </html>
